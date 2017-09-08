@@ -1,0 +1,24 @@
+{
+  "name": "proxy-any",
+  "version": "1.0.0",
+  "description": "Proxy all properties as anonymous function, including the properties and return value of this function.",
+  "main": "proxy-any.min.js",
+  "scripts": {
+    "build": "rollup -i proxy-any.js -o proxy-any.min.js -f umd -n ProxyAny",
+    "test": "mocha"
+  },
+  "author": {
+    "name": "lixinliang",
+    "url": "https://github.com/lixinliang"
+  },
+  "license": "MIT",
+  "engineStrict": true,
+  "engines": {
+    "node": "^6.0.0"
+  },
+  "devDependencies": {
+    "lodash": "^4.17.4",
+    "mocha": "^3.5.0",
+    "rollup": "^0.49.2"
+  }
+}
